@@ -172,7 +172,7 @@
 	}
 
 	.row > * {
-		float: left;
+		/* float: left; */
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -1288,7 +1288,7 @@
 				background: #bdc3c7;
 				border-bottom: solid 1px #272e31;
 				padding: 45px 0 45px 0;
-				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+				text-shadow: -1px -1px 1px rgb(189, 195, 199);
 			}
 			#content-wrapper {
 				background: #f7f7f7 url("images/bg03.png");
@@ -1329,7 +1329,7 @@
 				}
 
 					#header nav a {
-						color: #c6c8c8;
+						color: #f6f8f8;
 						text-decoration: none;
 						font-size: 1.4em;
 						margin-left: 60px;
@@ -1337,7 +1337,7 @@
 					}
 
 						#header nav a:hover {
-							color: #f6f8f8;
+							color: #c6c8c8;
 						}
 
 		/* Banner */
@@ -1363,13 +1363,16 @@
 		/* Features */
 
 			#features {
-				color: #a0a8ab;
+				color: #111;
 			}
 
 				#features h2 {
-					font-size: 1.25em;
-					color: #fff;
-					margin: 0 0 0.25em 0;
+					font-size: 2.25em;
+					color: #111;
+					margin: 0 auto;
+					width: 100%;
+					text-align: center;
+
 				}
 
 				#features a {
